@@ -31,6 +31,8 @@
 		84F9119E2AD2EC2200A93CBB /* GameColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D58F982498199300137818 /* GameColors.swift */; };
 		84F9119F2AD2EC2200A93CBB /* CharacterNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D58F9B2498199300137818 /* CharacterNameView.swift */; };
 		84F911A02AD2EC2200A93CBB /* AllCharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D58F9C2498199300137818 /* AllCharactersView.swift */; };
+		84F911A22AD2F6C000A93CBB /* CharacterSelection.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 84F911A12AD2F6C000A93CBB /* CharacterSelection.intentdefinition */; };
+		84F911A32AD2F6C800A93CBB /* CharacterSelection.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 84F911A12AD2F6C000A93CBB /* CharacterSelection.intentdefinition */; };
 		BE6A2CE6249988AD0022915C /* EmojiRangers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6A2CE4249988AD0022915C /* EmojiRangers.swift */; };
 		BE6A2CE7249988AD0022915C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6A2CE5249988AD0022915C /* ContentView.swift */; };
 /* End PBXBuildFile section */
@@ -82,6 +84,7 @@
 		84F911902AD2EBEC00A93CBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84F911922AD2EBEC00A93CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84F911962AD2EBEC00A93CBB /* EmojiRangerWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EmojiRangerWidgetExtension.entitlements; sourceTree = "<group>"; };
+		84F911A12AD2F6C000A93CBB /* CharacterSelection.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = CharacterSelection.intentdefinition; sourceTree = "<group>"; };
 		92D81A36B209034BE7D3F8CC /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		BE6A2CDC249942FD0022915C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BE6A2CE4249988AD0022915C /* EmojiRangers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiRangers.swift; sourceTree = "<group>"; };
@@ -210,6 +213,7 @@
 			children = (
 				84F9118C2AD2EBEA00A93CBB /* EmojiRangerWidgetBundle.swift */,
 				84F9118E2AD2EBEA00A93CBB /* EmojiRangerWidget.swift */,
+				84F911A12AD2F6C000A93CBB /* CharacterSelection.intentdefinition */,
 				84F911902AD2EBEC00A93CBB /* Assets.xcassets */,
 				84F911922AD2EBEC00A93CBB /* Info.plist */,
 			);
@@ -342,6 +346,7 @@
 				43D58FA12498199400137818 /* GameColors.swift in Sources */,
 				57A01E77248898F100D9E45F /* DetailView.swift in Sources */,
 				43D58FA62498199400137818 /* ImageURLProtocol.swift in Sources */,
+				84F911A22AD2F6C000A93CBB /* CharacterSelection.intentdefinition in Sources */,
 				43D58F9F2498199400137818 /* CharacterDetail.swift in Sources */,
 				43D58FA22498199400137818 /* AvatarView.swift in Sources */,
 				BE6A2CE7249988AD0022915C /* ContentView.swift in Sources */,
@@ -356,6 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F9119C2AD2EC2200A93CBB /* HealthLevelShape.swift in Sources */,
+				84F911A32AD2F6C800A93CBB /* CharacterSelection.intentdefinition in Sources */,
 				84F9119D2AD2EC2200A93CBB /* AvatarView.swift in Sources */,
 				84F9119E2AD2EC2200A93CBB /* GameColors.swift in Sources */,
 				84F9119F2AD2EC2200A93CBB /* CharacterNameView.swift in Sources */,
