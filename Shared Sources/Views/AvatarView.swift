@@ -52,7 +52,7 @@ struct AvatarView: View {
 struct AvatarView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            AvatarView(CharacterDetail.panda)
+            AvatarView(.panda)
                 .previewLayout(.fixed(width: 160, height: 160))
         }
     }
