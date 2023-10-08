@@ -1,5 +1,13 @@
-import SwiftUI
+//
+//  EmojiRangerWidget.swift
+//  EmojiRangerWidget
+//
+//  Created by Admin on 08.10.2023.
+//  Copyright © 2023 Apple. All rights reserved.
+//
+
 import WidgetKit
+import SwiftUI
 
 struct Provider: TimelineProvider {
     func placeholder(in context: Context) -> SimpleEntry {
@@ -26,7 +34,7 @@ struct SimpleEntry: TimelineEntry {
     let character: CharacterDetail
 }
 
-struct EmojiRangerWidgetEntryView: View {
+struct EmojiRangerWidgetEntryView : View {
     var entry: Provider.Entry
 
     var body: some View {
@@ -39,7 +47,14 @@ struct EmojiRangerWidget: Widget {
 
     var body: some WidgetConfiguration {
         StaticConfiguration(kind: kind, provider: Provider()) { entry in
-            EmojiRangerWidgetEntryView(entry: entry)
+            if #available(iOS 17.0, *) {
+                EmojiRangerWidgetEntryView(entry: entry)
+                    .containerBackground(.fill.tertiary, for: .widget)
+            } else {
+                EmojiRangerWidgetEntryView(entry: entry)
+                    .padding()
+                    .background()
+            }
         }
         .configurationDisplayName("Emoji Ranger Detail")
         .description("Keep track of your favorite emoji ranger")
