@@ -1,7 +1,7 @@
-# Emoji Rangers: Part 1
+# Emoji Rangers: Part 3
 
-Create a widget using WidgetKit and SwiftUI to show details of a character in a game.
+Extend a widget by providing dynamic user-configurable properties, making background network requests, and supporting multiple widgets.
 
 ## Overview
 
-- Note: This sample code project is associated with WWDC20 session [10034: Widgets Code-along, part 1: The adventure begins](https://developer.apple.com/wwdc20/10034/).
+- Note: This sample code project is associated with WWDC20 session [10036: Widgets Code-along, part 3: Advancing timelines](https://developer.apple.com/wwdc20/10036/).

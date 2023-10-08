@@ -3,61 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>INEnums</key>
-	<array>
-		<dict>
-			<key>INEnumDisplayName</key>
-			<string>Hero</string>
-			<key>INEnumDisplayNameID</key>
-			<string>Kcvokf</string>
-			<key>INEnumGeneratesHeader</key>
-			<true/>
-			<key>INEnumName</key>
-			<string>Enum</string>
-			<key>INEnumType</key>
-			<string>Regular</string>
-			<key>INEnumValues</key>
-			<array>
-				<dict>
-					<key>INEnumValueDisplayName</key>
-					<string>unknown</string>
-					<key>INEnumValueDisplayNameID</key>
-					<string>osaAJD</string>
-					<key>INEnumValueName</key>
-					<string>unknown</string>
-				</dict>
-				<dict>
-					<key>INEnumValueDisplayName</key>
-					<string>Power Panda</string>
-					<key>INEnumValueDisplayNameID</key>
-					<string>4YkSWA</string>
-					<key>INEnumValueIndex</key>
-					<integer>1</integer>
-					<key>INEnumValueName</key>
-					<string>panda</string>
-				</dict>
-				<dict>
-					<key>INEnumValueDisplayName</key>
-					<string>Egghead</string>
-					<key>INEnumValueDisplayNameID</key>
-					<string>fh0veU</string>
-					<key>INEnumValueIndex</key>
-					<integer>2</integer>
-					<key>INEnumValueName</key>
-					<string>egghead</string>
-				</dict>
-				<dict>
-					<key>INEnumValueDisplayName</key>
-					<string>Spouty</string>
-					<key>INEnumValueDisplayNameID</key>
-					<string>6TYbt6</string>
-					<key>INEnumValueIndex</key>
-					<integer>3</integer>
-					<key>INEnumValueName</key>
-					<string>spouty</string>
-				</dict>
-			</array>
-		</dict>
-	</array>
+	<array/>
 	<key>INIntentDefinitionModelVersion</key>
 	<string>1.2</string>
 	<key>INIntentDefinitionNamespace</key>
@@ -78,13 +24,13 @@
 			<key>INIntentDescription</key>
 			<string>Select Character</string>
 			<key>INIntentDescriptionID</key>
-			<string>tVvJ9c</string>
+			<string>chrtrm</string>
 			<key>INIntentEligibleForWidgets</key>
 			<true/>
 			<key>INIntentIneligibleForSuggestions</key>
 			<true/>
 			<key>INIntentLastParameterTag</key>
-			<integer>4</integer>
+			<integer>8</integer>
 			<key>INIntentManagedParameterCombinations</key>
 			<dict>
 				<key>hero</key>
@@ -96,7 +42,7 @@
 				</dict>
 			</dict>
 			<key>INIntentName</key>
-			<string>CharacterSelection</string>
+			<string>DynamicCharacterSelection</string>
 			<key>INIntentParameters</key>
 			<array>
 				<dict>
@@ -105,15 +51,15 @@
 					<key>INIntentParameterDisplayName</key>
 					<string>Hero</string>
 					<key>INIntentParameterDisplayNameID</key>
-					<string>Shu28N</string>
+					<string>8VdINS</string>
 					<key>INIntentParameterDisplayPriority</key>
 					<integer>1</integer>
-					<key>INIntentParameterEnumType</key>
-					<string>Enum</string>
-					<key>INIntentParameterEnumTypeNamespace</key>
-					<string>88xZPY</string>
 					<key>INIntentParameterName</key>
 					<string>hero</string>
+					<key>INIntentParameterObjectType</key>
+					<string>Hero</string>
+					<key>INIntentParameterObjectTypeNamespace</key>
+					<string>88xZPY</string>
 					<key>INIntentParameterPromptDialogs</key>
 					<array>
 						<dict>
@@ -128,31 +74,13 @@
 							<key>INIntentParameterPromptDialogType</key>
 							<string>Primary</string>
 						</dict>
-						<dict>
-							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
-							<key>INIntentParameterPromptDialogFormatString</key>
-							<string>There are ${count} options matching ‘${hero}’.</string>
-							<key>INIntentParameterPromptDialogFormatStringID</key>
-							<string>oEwiGm</string>
-							<key>INIntentParameterPromptDialogType</key>
-							<string>DisambiguationIntroduction</string>
-						</dict>
-						<dict>
-							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
-							<key>INIntentParameterPromptDialogFormatString</key>
-							<string>Just to confirm, you wanted ‘${hero}’?</string>
-							<key>INIntentParameterPromptDialogFormatStringID</key>
-							<string>pNmKUV</string>
-							<key>INIntentParameterPromptDialogType</key>
-							<string>Confirmation</string>
-						</dict>
 					</array>
+					<key>INIntentParameterSupportsDynamicEnumeration</key>
+					<true/>
 					<key>INIntentParameterTag</key>
-					<integer>4</integer>
+					<integer>8</integer>
 					<key>INIntentParameterType</key>
-					<string>Integer</string>
+					<string>Object</string>
 				</dict>
 			</array>
 			<key>INIntentResponse</key>
@@ -172,9 +100,9 @@
 				</array>
 			</dict>
 			<key>INIntentTitle</key>
-			<string>Character Selection</string>
+			<string>Dynamic Character Selection</string>
 			<key>INIntentTitleID</key>
-			<string>gpCwrM</string>
+			<string>mNA9py</string>
 			<key>INIntentType</key>
 			<string>Custom</string>
 			<key>INIntentVerb</key>
@@ -182,6 +110,70 @@
 		</dict>
 	</array>
 	<key>INTypes</key>
-	<array/>
+	<array>
+		<dict>
+			<key>INTypeDisplayName</key>
+			<string>Hero</string>
+			<key>INTypeDisplayNameID</key>
+			<string>r7WU1c</string>
+			<key>INTypeLastPropertyTag</key>
+			<integer>99</integer>
+			<key>INTypeName</key>
+			<string>Hero</string>
+			<key>INTypeProperties</key>
+			<array>
+				<dict>
+					<key>INTypePropertyDefault</key>
+					<true/>
+					<key>INTypePropertyDisplayPriority</key>
+					<integer>1</integer>
+					<key>INTypePropertyName</key>
+					<string>identifier</string>
+					<key>INTypePropertyTag</key>
+					<integer>1</integer>
+					<key>INTypePropertyType</key>
+					<string>String</string>
+				</dict>
+				<dict>
+					<key>INTypePropertyDefault</key>
+					<true/>
+					<key>INTypePropertyDisplayPriority</key>
+					<integer>2</integer>
+					<key>INTypePropertyName</key>
+					<string>displayString</string>
+					<key>INTypePropertyTag</key>
+					<integer>2</integer>
+					<key>INTypePropertyType</key>
+					<string>String</string>
+				</dict>
+				<dict>
+					<key>INTypePropertyDefault</key>
+					<true/>
+					<key>INTypePropertyDisplayPriority</key>
+					<integer>3</integer>
+					<key>INTypePropertyName</key>
+					<string>pronunciationHint</string>
+					<key>INTypePropertyTag</key>
+					<integer>3</integer>
+					<key>INTypePropertyType</key>
+					<string>String</string>
+				</dict>
+				<dict>
+					<key>INTypePropertyDefault</key>
+					<true/>
+					<key>INTypePropertyDisplayPriority</key>
+					<integer>4</integer>
+					<key>INTypePropertyName</key>
+					<string>alternativeSpeakableMatches</string>
+					<key>INTypePropertySupportsMultipleValues</key>
+					<true/>
+					<key>INTypePropertyTag</key>
+					<integer>4</integer>
+					<key>INTypePropertyType</key>
+					<string>SpeakableString</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>

@@ -2,8 +2,11 @@ import SwiftUI
 import WidgetKit
 
 @main
-struct EmojiRangerWidgetBundle: WidgetBundle {
+struct WidgetBundle: SwiftUI.WidgetBundle {
+
+    @WidgetBundleBuilder
     var body: some Widget {
         EmojiRangerWidget()
+        LeaderboardWidget()
     }
 }
