@@ -28,7 +28,6 @@
 	<key>NSUserActivityTypes</key>
 	<array>
 		<string>CharacterSelectionAdvancedIntent</string>
-		<string>CharacterSelectionIntent</string>
 		<string>CharacterSelectionIntermediateIntent</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
